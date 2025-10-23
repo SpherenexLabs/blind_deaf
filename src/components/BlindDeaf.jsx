@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import 'regenerator-runtime/runtime';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
@@ -105,11 +104,11 @@ const IntegratedAudioVoiceApp = () => {
   // Voice command mapping
   const speechCommands = {
     'hi how are you': 1,
-    'im fine thank you': 2,      // removed comma
+    'i am fine thank you': 2,      // removed comma
     'i need help': 3,
     'i need food': 4,
-    'is anyone is there': 5,
-    'im leaving': 6,
+    'is anyone there': 5,
+    'i am leaving': 6,
     'play': 'play',
     'pause': 'pause',
     'stop': 'stop',
