@@ -104,11 +104,11 @@ const IntegratedAudioVoiceApp = () => {
   // Voice command mapping
   const speechCommands = {
     'hi how are you': 1,
-    'i am fine thank you': 2,      // removed comma
-    'i need help': 3,
-    'i need food': 4,
-    'is anyone there': 5,
-    'i am leaving': 6,
+    'what is your name': 2,      // removed comma
+    'do you need any help': 3,
+    'are you hungry': 4,
+    'are you tired': 5,
+    'what do you want to do': 6,
     'play': 'play',
     'pause': 'pause',
     'stop': 'stop',
@@ -1871,3 +1871,4 @@ const IntegratedAudioVoiceApp = () => {
 };
 
 export default IntegratedAudioVoiceApp;
+
